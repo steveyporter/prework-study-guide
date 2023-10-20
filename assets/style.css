@@ -1,0 +1,53 @@
+* {
+    /*selector*/
+    margin: 0;
+    /*declaration*/
+    padding: 0;
+    /*declaration*/
+}
+
+header,
+footer {
+    /*selectors x2*/
+    width: 100%;
+    /*declaration*/
+    height: 120px;
+    /*declaration*/
+    background-color: blue;
+    /*declaration*/
+    color: white;
+    /*declaration*/
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+    /*the period at start of selector means this is a class selector*/
+    width: 80%;
+    /* 80%  of available width*/
+    margin: 40px auto;
+    /* 40 points to top and bottom; auto to left and right*/
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
